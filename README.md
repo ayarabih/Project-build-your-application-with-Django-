@@ -1,5 +1,5 @@
 # Project-build-your-application-with-Django-
-![png-transparent-django-python-computer-icons-logo-python-text-label-rectangle](https://user-images.githubusercontent.com/109382355/203650733-e98564a8-f4c4-488a-a212-a599b61e4514.png)
+![image](https://user-images.githubusercontent.com/109382355/203650864-0c62451d-1410-4688-93ea-10a15ddba52e.png)
 
 ![image](https://user-images.githubusercontent.com/109382355/203650481-7d896cee-77b9-4eed-bfb7-1a47d7ffc575.png)
 

@@ -1,4 +1,5 @@
 # Project-build-your-application-with-Django-
+![png-transparent-django-python-computer-icons-logo-python-text-label-rectangle](https://user-images.githubusercontent.com/109382355/203650733-e98564a8-f4c4-488a-a212-a599b61e4514.png)
 
 ![image](https://user-images.githubusercontent.com/109382355/203650481-7d896cee-77b9-4eed-bfb7-1a47d7ffc575.png)
 
@@ -14,6 +15,7 @@ we will Installing MySQL on Ubuntu
 2.	sudo apt upgrade
 3.	sudo apt install mysql-server
 4.	mysql --version
+
 #Installing MySQL on Ubuntu: Configure the MySQL Installation
 1)	sudo mysql_secure_installation
 2)	you will chose your level security

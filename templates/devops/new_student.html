@@ -1,0 +1,13 @@
+{% extends 'devops/base.html' %}
+{% block title_block %}
+
+<h1> Add New Student </h1>
+{% endblock %}
+
+{% block main_block %}
+<form method="POST"> {% csrf_token %}
+    {{ student_form.as_p}}
+    <button type="submit">save</button>
+    <button type="reset">clear</button>
+</form>
+{% endblock %}

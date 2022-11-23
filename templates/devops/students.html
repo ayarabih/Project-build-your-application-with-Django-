@@ -1,0 +1,24 @@
+{% extends 'devops/base.html' %}
+
+{% block title_block %}
+<h1>ALL Students</h1>
+<a href="/devops/new">Add New Student</a>
+{% endblock %}
+
+{% block main_block %}
+<table border="1">
+    <th> First Name</th><th>Last Name </th><th>Age</th><th>Track</th><th>Graduted</th><th colspan="2">Actions</th>
+    {% for st in students %}
+    <tr>
+        <td><a href="/devops/student/{{st.id}}">{{st.fname}}</a></td>
+        <td>{{st.lname}}</td>
+        <td>{{st.age}}</td>
+        <td>{{st.student_track}}</td>
+        <td>{{st.is_graduated}}</td>
+        <td><a href= '/devops/edit/{{st.id}}'>Edit </a></td>
+        <td><a href= '/devops/delete/{{st.id}}'>Delete </a></td>
+
+    </tr>
+    {% endfor %}
+<table>
+{% endblock %}

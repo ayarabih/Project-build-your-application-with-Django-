@@ -1,0 +1,23 @@
+{% extends 'devops/base.html' %}
+{% load static %}
+
+{% block title_block %}
+
+<h1>welcome: {{student.fname}} {{student.lname}}</h1> 
+<br /> 
+<img src ="{% static 'img/pang.png' %}" width="60" height="60"/>
+<a href="/devops/all"> click Back  </a> 
+<br /> 
+{% endblock %}
+{% block main_block %}
+
+<h3><b>First Name: </b>{{student.fname}}</h3>
+<h3><b>Last Name: </b>{{student.lname}}</h3>
+<h3><b>Age: </b>{{student.age}}</h3>
+<h3><b>Track: </b>{{student.student_track}}</h3>
+{% endblock %}
+
+
+
+
+
